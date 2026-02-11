@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react"
+import ai from "../assets/ai.png"
 
 const AI = () => {
   const ref = useRef<HTMLDivElement>(null)
@@ -39,6 +40,13 @@ const AI = () => {
         <p className="text-xl text-justify leading-relaxed">
         The opportunity to work with AI at OpenSesame excites me because it combines technical innovation with meaningful impact, helping people continuously grow and adapt in a rapidly evolving workforce.
         </p>
+        <div className="relative w-full flex justify-center">
+          <img
+            src={ai}
+            alt="bg"
+            className="w-md object-cover rounded-xl"
+          />
+        </div>
       </div>
     </section>
   )
