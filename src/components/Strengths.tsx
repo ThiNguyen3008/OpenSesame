@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react"
+import together from "../assets/together.png"
 
 const Strengths = () => {
   const ref = useRef<HTMLDivElement>(null)
@@ -41,8 +42,16 @@ const Strengths = () => {
         </p>
         <br></br>
         <p className="text-xl text-justify leading-relaxed">
-        Additionally, I’ve worked directly with non-technical stakeholders, including small business owners and cross-functional teams, strengthening my communication skills and my ability to turn abstract ideas into practical solutions. I approach every problem with curiosity, attention to detail, and a strong willingness to learn — qualities I believe are crucial in a mission-driven, evolving environment like OpenSesame.
+        Additionally, I’ve worked closely with non-technical stakeholders, including small business owners and cross-functional teams, which has strengthened my teamwork and communication skills, as well as my ability to translate abstract ideas into practical solutions. I approach every challenge with curiosity, attention to detail, and a strong willingness to learn — qualities I believe are essential in a mission-driven and fast-evolving environment like OpenSesame.
         </p>
+        <br></br>
+        <div className="relative w-full flex justify-center">
+          <img
+            src={together}
+            alt="bg"
+            className="w-lg object-cover rounded-xl"
+          />
+        </div>
       </div>
     </section>
   )
