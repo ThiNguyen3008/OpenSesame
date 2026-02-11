@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react"
+import se from "../assets/software-engineer.png"
 
 const Journey = () => {
   const ref = useRef<HTMLDivElement>(null)
@@ -39,6 +40,13 @@ const Journey = () => {
         <p className="text-xl text-justify leading-relaxed">
         OpenSesame’s mission to help organizations develop skills at scale resonates with my goal of building products that make a tangible impact. In the long run, I aim to grow as a full-stack engineer who not only delivers features, but also contributes to thoughtful product decisions that enhance learning and professional growth. Being part of a learning-focused company like OpenSesame would give me the opportunity to sharpen both my technical and product design skills while creating solutions that empower people and organizations to thrive in a fast-changing, AI-driven world.
         </p>
+        <div className="relative w-full flex justify-center">
+          <img
+            src={se}
+            alt="bg"
+            className="w-sm object-cover rounded-xl"
+          />
+        </div>
       </div>
     </section>
   )
