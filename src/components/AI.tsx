@@ -30,7 +30,7 @@ const AI = () => {
         </h2>
 
         <p className="text-xl text-justify leading-relaxed">
-        What excites me most about AI is <strong className="font-bold">its ability to make learning personalized and scalable in ways that weren’t possible before. </strong> In a portfolio project, I built an AI-powered chat assistant to help visitors quickly explore my background and projects. That experience showed me how AI can reduce friction, provide real-time answers, and adapt to individual needs. In a learning context, this could translate into personalized course recommendations, adaptive feedback, or intelligent support systems that keep learners engaged.
+        What excites me most about AI is <strong className="font-bold">its ability to make learning personalized and scalable in ways that weren’t possible before. </strong> In my Personal Portfolio Website project (https://www.kristen-nguyen.com), I built an AI-powered chat assistant to help visitors quickly explore my background and projects. That experience showed me how AI can reduce friction, provide real-time answers, and adapt to individual needs. In a learning context, this could translate into personalized course recommendations, adaptive feedback, or intelligent support systems that keep learners engaged.
         </p>
         <br></br>
         <p className="text-xl text-justify leading-relaxed">
